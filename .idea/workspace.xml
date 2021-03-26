@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="15h51" />
+    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="16h08">
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +123,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pLNVbFcITFofj2kNuWADlbX5JG" />
@@ -143,7 +153,7 @@
       <workItem from="1614958435962" duration="1945000" />
       <workItem from="1615360487421" duration="619000" />
       <workItem from="1615557696758" duration="1389000" />
-      <workItem from="1616762856731" duration="6985000" />
+      <workItem from="1616762856731" duration="7380000" />
     </task>
     <task id="LOCAL-00001" summary="15h51">
       <created>1616770275789</created>
@@ -152,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616770275789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="16h08">
+      <created>1616771338034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616771338034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="15h51" />
-    <option name="LAST_COMMIT_MESSAGE" value="15h51" />
+    <MESSAGE value="16h08" />
+    <option name="LAST_COMMIT_MESSAGE" value="16h08" />
   </component>
   <component name="WindowStateProjectService">
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1614958955838">
@@ -190,9 +208,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615557766889" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616770285263">
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616771344841">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616770285263" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616771344841" />
   </component>
 </project>
