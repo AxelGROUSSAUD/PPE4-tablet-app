@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Players!{% endblock %}
+
+{% block body %}
+    <h1>Les parties du jour</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Heure</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+    {% for p in today %}
+            <tr>
+                <td>{{ p.id }}</td>
+                <td>{{ p.jour.format('G : i') }}</td>
+
+            </tr>
+    {% else %}
+        <tr>
+            <td colspan="2">no records found</td>
+        </tr>
+    {% endfor %}
+        </tbody>
+{% endblock %}
