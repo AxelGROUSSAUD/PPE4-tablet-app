@@ -10,7 +10,7 @@
             <tr>
                 <th>Id</th>
                 <th>Heure</th>
-
+                <th>Action</th>
 
             </tr>
         </thead>
@@ -19,6 +19,9 @@
             <tr>
                 <td>{{ p.id }}</td>
                 <td>{{ p.jour.format('G : i') }}</td>
+                <td>
+                    <a href="{{ path('publication', {'id': p.id}) }}">Choisir</a>
+                </td>
 
             </tr>
     {% else %}
