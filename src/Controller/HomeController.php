@@ -5,6 +5,7 @@ namespace App\Controller;
 
 use App\Repository\PartieRepository;
 use App\Entity\Partie;
+use App\Entity\PhotoClient;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -35,8 +36,17 @@ class HomeController extends AbstractController
      */
     public function publish(Request $request, Partie $partie): Response
     {
-        $form = $this->createForm(PublishType::class);
+        $publication = new PhotoClient();
+        $form = $this->createForm(PublishType::class,$publication, $partie);
         $form->handleRequest($request);
+
+
+        if($form->isSubmitted() && $form->isValid()){
+            $picture = $form->get('file')->getData();
+            if($picture){
+                $originalFilename = pathinfo($picture->getClientOriginalName(), PATHINFO_FILENAME);
+            }
+        }
         return $this->render('home/publish.html.twig', [
             
             'form' => $form->createView(),

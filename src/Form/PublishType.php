@@ -15,7 +15,21 @@ class PublishType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('file', FileType::class, ['label' => 'Votre image : '])
+            ->add('file', FileType::class, [
+                'label' => 'Votre image : ',
+                'mapped' => false,
+                'required' => false,
+                'constraints' => [
+                    new File([
+                        'maxSize' => '5M',
+                        'mimeTypes' => [
+                            'image/jpeg',
+                            'image/png'
+                        ],
+                        'mimeTypesMessage' => 'Please upload a valid picture like png or jpg format.',
+                    ])
+                ]
+            ])
             ->add('commentaire',TextType::class,['label'=> 'Votre commentaire : ']);
         ;
     }

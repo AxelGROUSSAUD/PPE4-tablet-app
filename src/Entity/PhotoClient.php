@@ -18,7 +18,7 @@ class PhotoClient
     private $id;
 
     /**
-     * @ORM\Column(type="blob")
+     * @ORM\Column(type="string")
      */
     private $photo;
 
