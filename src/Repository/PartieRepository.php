@@ -49,8 +49,8 @@ class PartieRepository extends ServiceEntityRepository
     */
     public function getByDate(\Datetime $date)
     {
-        $from = new \DateTime($date->format("Y-m-d")." 00:00:00");
-        $to   = new \DateTime($date->format("Y-m-d")." 23:59:59");
+        $from = new \DateTime($date->format("Y-m-d"));
+        $to   = new \DateTime($date->format("Y-m-d"));
 
         $qb = $this->createQueryBuilder("e");
         $qb

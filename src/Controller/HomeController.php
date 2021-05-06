@@ -36,19 +36,20 @@ class HomeController extends AbstractController
      */
     public function publish(Request $request, Partie $partie): Response
     {
-        $publication = new PhotoClient();
-        $form = $this->createForm(PublishType::class,$publication, $partie);
+        $photoClient = new PhotoClient();
+        $form = $this->createForm(PhotoClientType::class, $photoClient);
         $form->handleRequest($request);
 
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($photoClient);
+            $entityManager->flush();
 
-        if($form->isSubmitted() && $form->isValid()){
-            $picture = $form->get('file')->getData();
-            if($picture){
-                $originalFilename = pathinfo($picture->getClientOriginalName(), PATHINFO_FILENAME);
-            }
+            return $this->redirectToRoute('home');
         }
-        return $this->render('home/publish.html.twig', [
-            
+
+        return $this->render('photo_client/new.html.twig', [
+            'photo_client' => $photoClient,
             'form' => $form->createView(),
         ]);
     }
