@@ -91,6 +91,4 @@ class PartieController extends AbstractController
 
         return $this->redirectToRoute('partie_index');
     }
-
-    
 }

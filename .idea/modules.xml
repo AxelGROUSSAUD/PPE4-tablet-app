@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/lsr-game.iml" filepath="$PROJECT_DIR$/.idea/lsr-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/App_tablet.iml" filepath="$PROJECT_DIR$/.idea/App_tablet.iml" />
     </modules>
   </component>
 </project>

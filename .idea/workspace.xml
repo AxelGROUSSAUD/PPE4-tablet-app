@@ -19,26 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="crud fait">
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lsr-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lsr-game.iml" afterDir="false" />
+    <list default="true" id="556b55f1-baaa-47c9-8e3e-c9ea1a9ee654" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PartieRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PartieRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PartieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PartieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/PhotoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PhotoClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/PartieType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PartieType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/PhotoClientType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PhotoClientType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/photo_client/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photo_client/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/photo_client/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photo_client/new.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,12 +136,18 @@
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/cweagans/composer-patches" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1pLNVbFcITFofj2kNuWADlbX5JG" />
+  <component name="ProjectId" id="1sCZT3PwYeluBaucQYg8i9vMZqC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -152,45 +161,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="" />
-      <created>1614958434692</created>
+      <changelist id="556b55f1-baaa-47c9-8e3e-c9ea1a9ee654" name="Default Changelist" comment="" />
+      <created>1620378537528</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614958434692</updated>
-      <workItem from="1614958435962" duration="1945000" />
-      <workItem from="1615360487421" duration="619000" />
-      <workItem from="1615557696758" duration="1389000" />
-      <workItem from="1616762856731" duration="9675000" />
-      <workItem from="1617366322035" duration="7255000" />
-      <workItem from="1617374480765" duration="1967000" />
+      <updated>1620378537528</updated>
+      <workItem from="1620378539558" duration="80000" />
+      <workItem from="1620378621097" duration="9353000" />
     </task>
-    <task id="LOCAL-00001" summary="15h51">
-      <created>1616770275789</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1616770275789</updated>
-    </task>
-    <task id="LOCAL-00002" summary="16h08">
-      <created>1616771338034</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1616771338034</updated>
-    </task>
-    <task id="LOCAL-00003" summary="crud fait">
-      <created>1616771720929</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1616771720929</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,50 +189,19 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="15h51" />
-    <MESSAGE value="16h08" />
-    <MESSAGE value="crud fait" />
-    <option name="LAST_COMMIT_MESSAGE" value="crud fait" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1614958955838">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620398184031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="432" key="ComposerInitDialogKey/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614958955838" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615361104364">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.78.1920.1040@0.0.1920.1040" timestamp="1620398184031" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1620378588952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615361104364" />
-    <state x="838" y="418" key="Github.ShareDialog" timestamp="1615557759916">
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/-1920.78.1920.1040@0.0.1920.1040" timestamp="1620378588952" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1620398109118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615557759916" />
-    <state x="763" y="225" key="Github.UntrackedFilesDialog" timestamp="1615557766889">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615557766889" />
-    <state x="736" y="243" key="NewPhpClassDialog" timestamp="1617366976276">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="243" key="NewPhpClassDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617366976276" />
-    <state x="2482" y="323" width="998" height="708" key="SettingsEditor" timestamp="1617374459757">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2482" y="323" width="998" height="708" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1617374459757" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616771728700">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616771728700" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616775665662">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616775665662" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1617372120493">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1617372120493" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.78.1920.1040@0.0.1920.1040" timestamp="1620398109118" />
   </component>
 </project>

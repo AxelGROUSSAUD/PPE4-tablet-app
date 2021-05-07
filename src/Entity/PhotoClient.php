@@ -31,16 +31,35 @@ class PhotoClient
     /**
      * NOTE: This is not a mapped field of entity metadata, just a simple property.
      * 
-     * @Vich\UploadableField(mapping="publications", fileNameProperty="image.name", size="image.size", mimeType="image.mimeType", originalName="image.originalName", dimensions="image.dimensions")
+     * @Vich\UploadableField(mapping="publications", fileNameProperty="imageName", size="imageSize", mimeType="image.mimeType", originalName="image.originalName", dimensions="image.dimensions")
      * 
      * @var File|null
      */
     private $imageFile;
 
     /**
+     * @ORM\Column(type="string")
+     *
+     * @var string|null
+     */
+    private $imageName;
+
+    /**
+     * @ORM\Column(type="integer")
+     *
+     * @var int|null
+     */
+    private $imageSize;
+
+    /**
      * @ORM\ManyToOne(targetEntity=Partie::class, inversedBy="photoClient")
      */
     private $partie;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $commentaire;
 
     public function getId(): ?int
     {
@@ -49,12 +68,12 @@ class PhotoClient
 
     public function setImage(EmbeddedFile $image): void
     {
-        $this->image = $image;
+        $this->photo = $image;
     }
 
     public function getImage(): ?EmbeddedFile
     {
-        return $this->image;
+        return $this->photo;
     }
 
     public function getPartie(): ?Partie
@@ -91,5 +110,37 @@ class PhotoClient
     public function getImageFile(): ?File
     {
         return $this->imageFile;
+    }
+
+    public function setImageName(?string $imageName): void
+    {
+        $this->imageName = $imageName;
+    }
+
+    public function getImageName(): ?string
+    {
+        return $this->imageName;
+    }
+
+    public function setImageSize(?int $imageSize): void
+    {
+        $this->imageSize = $imageSize;
+    }
+
+    public function getImageSize(): ?int
+    {
+        return $this->imageSize;
+    }
+
+    public function getCommentaire(): ?string
+    {
+        return $this->commentaire;
+    }
+
+    public function setCommentaire(?string $commentaire): self
+    {
+        $this->commentaire = $commentaire;
+
+        return $this;
     }
 }

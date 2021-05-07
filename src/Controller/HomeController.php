@@ -3,6 +3,7 @@
 
 namespace App\Controller;
 
+use App\Form\PhotoClientType;
 use App\Repository\PartieRepository;
 use App\Entity\Partie;
 use App\Entity\PhotoClient;
@@ -32,7 +33,7 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/{id}", name="publication", methods={"GET","POST"})
+     * @Route("/{id}/publication", name="publication", methods={"GET","POST"})
      */
     public function publish(Request $request, Partie $partie): Response
     {
