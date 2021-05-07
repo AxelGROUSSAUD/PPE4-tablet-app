@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b55f1-baaa-47c9-8e3e-c9ea1a9ee654" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PartieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PartieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/PhotoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PhotoClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PartieType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PartieType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/PhotoClientType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PhotoClientType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photo_client/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photo_client/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photo_client/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photo_client/new.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620378537528</updated>
       <workItem from="1620378539558" duration="80000" />
-      <workItem from="1620378621097" duration="9353000" />
+      <workItem from="1620378621097" duration="10673000" />
     </task>
     <servers />
   </component>
